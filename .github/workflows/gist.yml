@@ -9,9 +9,16 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Update Resume Gist
-      uses: exuanbo/actions-deploy-gist@v1
-      with:
-        token: ${{ secrets.TOKEN }}
-        gist_id: c9dcfa1b37dec07fb2ee7f36d7278105
-        file_path: resume.json
+    - name: npm
+      run: |
+        npm install -g resume-cli
+        
+        resume export resume.pdf
+        resume export resume.html
+
+    # - name: Update Resume Gist
+    #   uses: exuanbo/actions-deploy-gist@v1
+    #   with:
+    #     token: ${{ secrets.TOKEN }}
+    #     gist_id: c9dcfa1b37dec07fb2ee7f36d7278105
+    #     file_path: resume.json
