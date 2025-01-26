@@ -22,14 +22,14 @@ jobs:
 
         npm install hacksalot/hackmyresume#dev -g
 
-        npm install -g jsonresume-theme-macchiato
+        # npm install -g jsonresume-theme-macchiato
+        git clone https://github.com/biosan/jsonresume-theme-macchiato
 
         wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
         sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
-        hackmyresume build resume.json TO out/index.html out/resume.pdf
+        hackmyresume build resume.json TO out/index.html out/resume.pdf -t jsonresume-theme-macchiato/src
         # -t macchiato
-        # -t node_modules/jsonresume-theme-macchiato
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
