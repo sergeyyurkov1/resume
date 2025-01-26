@@ -12,9 +12,10 @@ jobs:
     - name: npm
       run: |
         npm install -g resume-cli
+        npm install -g jsonresume-theme-macchiato
         
-        resume export resume.pdf
-        resume export resume.html
+        resume export resume.pdf --theme macchiato
+        resume export resume.html --theme macchiato
 
     # - name: Update Resume Gist
     #   uses: exuanbo/actions-deploy-gist@v1
