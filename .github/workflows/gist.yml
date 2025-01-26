@@ -21,7 +21,8 @@ jobs:
 
         npm install -g jsonresume-theme-macchiato
 
-        hackmyresume build resume.json TO out/resume.html -t node_modules/jsonresume-theme-macchiato
+        hackmyresume build resume.json TO out/resume.html
+        # -t node_modules/jsonresume-theme-macchiato
 
         
     # - name: Update Resume Gist
