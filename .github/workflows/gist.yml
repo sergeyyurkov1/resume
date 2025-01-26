@@ -24,7 +24,7 @@ jobs:
         wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
         sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
-        hackmyresume build resume.json TO out/resume.html out/resume.pdf
+        hackmyresume build resume.json TO out/resume.html out/resume.pdf -t macchiato
         # -t node_modules/jsonresume-theme-macchiato
 
         
