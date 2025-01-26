@@ -1,236 +1,270 @@
 {
   "meta": {
-    "theme": "elegant"
+    "theme": "macchiato"
   },
   "basics": {
-    "name": "Thomas Davis",
-    "label": "Web Developer",
-    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
-    "summary": "I'm a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
-    "website": "https://lordajax.com",
-    "email": "thomasalwyndavis@gmail.com",
+    "name": "Yurkov Sergey 谢尔盖",
+    "label": "",
+    "picture": "",
+    "email": "sergeyyurkov1@outlook.com",
+    "phone": "13013810255 (微信)",
+    "website": "https://sergeyyurkov1.github.io",
+    "summary": "Experienced researcher in media and communication, data analyst and programmer from Uzbekistan who loves solving problems. Currently based in Suzhou and can start right away.",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AU"
+      "address": "",
+      "postalCode": "",
+      "city": "苏州",
+      "countryCode": "中国",
+      "region": ""
     },
     "profiles": [
       {
-        "username": "ajaxdavis",
-        "url": "https://twitter.com/ajaxdavis",
-        "network": "twitter"
+        "network": "1",
+        "username": "blog.csdn.net/sergeyyurkov1",
+        "url": "https://blog.csdn.net/sergeyyurkov1"
       },
       {
-        "url": "https://github.com/thomasdavis",
-        "username": "thomasdavis",
-        "network": "github"
+        "network": "2",
+        "username": "github.com/sergeyyurkov1",
+        "url": "https://github.com/sergeyyurkov1"
       }
     ]
   },
-  "education": [
+  "volunteer": [
     {
-      "endDate": "2009-12-12",
-      "startDate": "2008-02-12",
-      "area": "Software Engineering (incomplete)",
-      "studyType": "Bachelors",
-      "institution": "The University of Queensland"
-    }
-  ],
-  "references": [
-    {
-      "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
-      "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
-    },
-    {
-      "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
-      "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
-    },
-    {
-      "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
-      "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
-    },
-    {
-      "reference": "On Thomas Davis... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
-      "name": "Greg Davis"
-    }
-  ],
-  "skills": [
-    {
-      "keywords": [
-        "HTML / JSX",
-        "SCSS / CSS / BEM / Styled Components",
-        "Javascript / Typescript",
-        "React / Next",
-        "Redux / Apollo"
-      ],
-      "level": "Senior",
-      "name": "Frontend"
-    },
-    {
-      "keywords": ["Node", "Ruby", "Python", "Postgres", "Redis", "Serverless"],
-      "level": "Senior",
-      "name": "Backend"
-    },
-    {
-      "keywords": ["AWS", "G Cloud", "Heroku", "Caching"],
-      "level": "Senior",
-      "name": "Devops"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Defender of the Internet",
-      "awarder": "Fight For The Future"
+      "organization": "Soochow University",
+      "position": "Creator of “Research Programming” Course",
+      "website": "",
+      "startDate": "2023-03",
+      "endDate": "2023-05",
+      "summary": "taught graduate students the basics of programming in Python and quantitative analysis",
+      "highlights": []
     }
   ],
   "work": [
     {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "highlights": ["React", "Redux", "SCSS", "Product"]
-    },
-    {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
+      "name": "CSDN",
+      "position": "Creator of “Research Programming” Blog",
+      "url": "https://blog.csdn.net/sergeyyurkov1",
+      "startDate": "2023-03",
+      "endDate": "2025-05",
+      "summary": "CSDN",
       "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
+        "regularly published tutorials on Python, 华为仓颉, research, and data analysis",
+        "attracted > 10,000 readers with > 150 subscribers and > 220 likes"
       ]
     },
     {
+      "name": "Fiverr",
+      "position": "Python Developer",
+      "url": "https://sergeyyurkov1.github.io/",
+      "startDate": "2023-03",
+      "endDate": "2023-03",
+      "summary": "Fiverr",
       "highlights": [
-        "Worked with Postgres, Redis and Dynamodb for storage.",
-        "Hosted on a mixture of Heroku Apps and EC2 servers.",
-        "Caching by Fastly and Cloudflare",
-        "Hybrid app supported on all platforms"
-      ],
-      "summary": "Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)",
-      "website": "https://listium.com",
-      "pinned": true,
-      "name": "Listium",
-      "position": "Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01"
+        "developed custom Python applications to help clients with their work and personal needs, such as:",
+        " - a shopping list and price comparison app with detailed report to find best deals near a place of residence in Berlin due to recent food price hikes",
+        " - an OCR application with a Web UI and the ability to extract keywords from PDFs with machine learning, repair damaged and encrypted files keeping track of changes with a blockchain - tested on thousands of archived documents, and more...",
+        "learned to manage complex projects, understand customers’ requirements and enhanced my problem-solving skills"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Soochow University",
+      "area": "",
+      "studyType": "PhD Student",
+      "startDate": "2019-09",
+      "endDate": "2025-05",
+      "gpa": "",
+      "courses": []
     },
     {
-      "highlights": [
-        "Millions of sites use the CDN in production",
-        "Larger market share than Yahoo's, Microsoft's and Google's javascript content distribution networks",
-        "We serve hundreds of billions request a month",
-        "Contains over 3000 popular Javascript libraries",
-        "Millions of developers visit the site per year"
-      ],
-      "pinned": true,
-      "summary": "Following Google's CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.",
-      "website": "http://www.cdnjs.com",
-      "name": "Cdnjs",
-      "position": "Co-Founder",
-      "startDate": "2011-01-08"
+      "institution": "Soochow University",
+      "area": "Journalism and Communication",
+      "studyType": "Master",
+      "startDate": "2017-09",
+      "endDate": "2019-05",
+      "gpa": "",
+      "courses": [
+        "studied media and culture industry in China",
+        "focused on computer-mediated and health communication",
+        "succeeded in a number of individual projects on topics such as educational value of video games and young adult TV, e-commerce and the rise of consumerism, emerging subcultures among teenagers, the value of the open-source movement, and more"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Full scholarship holder",
+      "date": "2017-09",
+      "awarder": "Soochow University",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "applied quantitative research on outcomes of WeChat overuse and stress among university students in China - master thesis",
+      "publisher": "Soochow University",
+      "releaseDate": "2019-05",
+      "website": "",
+      "summary": "collected psychometric survey data and analyzed it with SmartPLS and JASP; aimed at promoting mental health awareness; received high remarks and interest from the faculty, graded excellent at the time of defense"
     },
     {
-      "highlights": [
-        "Developed new tools for contacting congress",
-        "Brainstormed campaign ideas to raise maximum awareness about issues",
-        "Lots of social networking integration"
-      ],
-      "summary": "Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.",
-      "website": "http://www.eff.org",
-      "name": "Electronic Frontier Foundation",
-      "position": "Developer",
-      "startDate": "2014-04-01",
-      "endDate": "2016-01-01"
+      "name": "article on “How Uzbek media presents The ‘One Belt, One Road’ Initiative”",
+      "publisher": "Journal of Chinese Media Studies",
+      "releaseDate": "2019-05",
+      "website": "",
+      "summary": "case study on media ownership, agenda setting and manipulation of public opinion for political control"
     },
     {
-      "highlights": [
-        "Managed a small team of developers and designers",
-        "Built the entire frontend application with Backbone.js",
-        "Transferred all of the infrastructure from Heroku to AWS"
-      ],
-      "summary": "Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.",
-      "website": "http://www.earbits.com",
-      "name": "Earbits",
-      "position": "CTO",
-      "endDate": "2015-01-09",
-      "startDate": "2013-03-08"
+      "name": "article titled “Towards effective vaccine communication—a framing analysis of the coverage of vaccines and vaccine-related issues”",
+      "publisher": "pending publication",
+      "releaseDate": "2025-05",
+      "website": "",
+      "summary": "wrote a custom scraper with Selenium for the Lexis database; - created a script to sample, sort, and categorize data; used Plotly and Matplotlib to create complex charts; created a custom dashboard with Dash to analyze data"
     },
     {
-      "highlights": ["This resume is built with JSON Resume", "Over 3000 stars on Github", "Community developed themes", "Tens of thousands of users"],
-      "summary": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.",
-      "website": "http://jsonresume.org",
-      "pinned": true,
-      "name": "JSON Resume",
-      "position": "Founder",
-      "startDate": "2014-04-01"
+      "name": "study on the Central Asian government’s discourse on China’s involvement in the pandemic in the early stages - pending publication",
+      "publisher": "pending publication",
+      "releaseDate": "2025-05",
+      "website": "",
+      "summary": "created a custom social media and news site scraper; developed a custom sentiment analysis pipeline"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Numcj package - the alternative to Numpy in 仓颉",
+      "startDate": "2024-12",
+      "endDate": "2025-01",
+      "description": "Numcj objective is to recreate Numpy API in Cangjie instead of Python and make it easier to work with arrays in Cangjie Programming Language. The project is a work in progress but already implements a number of functions, includes API documentation, and tests",
+      "highlights": [],
+      "url": "https://sergeyyurkov1.github.io/numcj"
     },
     {
-      "highlights": [
-        "Generated  37,000,000 banner views",
-        "100, 000 phone calls to congress",
-        "500, 000 emails",
-        "250, 000 signatures"
-      ],
-      "summary": "Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was \"TheDayWeFightBack\"..",
-      "website": "http://www.taskforce.is",
-      "name": "Taskforce.is",
-      "position": "Developer",
-      "startDate": "2013-06-01",
-      "endDate": "2016-01-01"
+      "name": "Python OS",
+      "startDate": "2024-04",
+      "endDate": "2024-04",
+      "description": "This project is an attempt to create an OS similar to Commodore KERNAL but running Python instead of BASIC programming language. Includes a TUI written with Textual inspired maintained as a separate project at https://github.com/sergeyyurkov1/pythonui",
+      "highlights": [],
+      "url": "https://blog.csdn.net/sergeyyurkov1/article/details/144755248"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "level": "",
+      "keywords": [
+        "Academic Writing",
+        "Qualitative Research",
+        "Quantitative Research"
+      ]
     },
     {
-      "highlights": [
-        "The site and blog combined have managed to receive over 200,000 visitors in 2014."
-      ],
-      "summary": "An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. ",
-      "website": "http://www.dronehire.org",
-      "name": "Drone Hire",
-      "position": "Co-Founder",
-      "startDate": "2013-01-01"
+      "name": "Analytics",
+      "level": "",
+      "keywords": [
+        "Data Collection",
+        "Data Mining",
+        "Data Processing",
+        "Data Visualization",
+        "Dashboarding",
+        "Data Modelling",
+        "Natural Language Processing",
+        "Automation",
+        "Reporting and Pipelining",
+        "APIs and API development"
+      ]
     },
     {
-      "highlights": [
-        "Over two million unique visitors a year",
-        "25,000+ ebook downloads",
-        "300,000+ Youtube views"
-      ],
-      "summary": "I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.",
-      "website": "http://backbonetutorials.com",
-      "name": "BackboneTutorials.com",
-      "position": "Founder",
-      "startDate": "2011-01-01",
-      "endDate": "2014-01-01"
+      "name": "Technologies",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Streamlit",
+        "Dash",
+        "Plotly",
+        "Seaborn",
+        "Matplotlib",
+        "Altair",
+        "ECharts",
+        "SQL",
+        "SQLite",
+        "PostgreSQL",
+        "Maps and GeoJSON",
+        "Scikit-Learn",
+        "Keras",
+        "Pandas",
+        "Numpy",
+        "NetworkX",
+        "Selenium",
+        "SmartPLS",
+        "Excel",
+        "华为仓颉",
+        "Linux",
+        "CRON",
+        "JavaScript",
+        "Vue",
+        "Vue Quasar Framework",
+        "HTML",
+        "CSS",
+        "CSS BEM",
+        "SASS",
+        "TailwindCSS",
+        "FastAPI",
+        "Flask",
+        "Websockets",
+        "WebRTC"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
     },
     {
-      "summary": "Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.",
-      "website": "http://ephox.com",
-      "name": "Ephox",
-      "position": "Front-end Developer",
-      "endDate": "2012-06-01",
-      "startDate": "2011-01-01"
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Advanced"
     }
   ],
   "interests": [
     {
-      "name": "Gardening"
+      "name": "",
+      "keywords": ["reading", "鸿蒙操作系统", "国产软件与硬件"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Scientific Computing with Python",
+      "date": "2021-11-07",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/sergeyyu"
     },
     {
-      "name": "Music / Jamming"
+      "name": "Data Analysis with Python",
+      "date": "2021-11-07",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/sergeyyu"
     },
     {
-      "name": "Reading / Writing"
+      "name": "Machine Learning with Python",
+      "date": "2021-11-07",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/sergeyyu"
+    }
+  ],
+  "references": [
+    {
+      "name": "arbeitauslagern, Germany",
+      "reference": "absolutely professional work big thanks again for dedicated support"
     },
     {
-      "name": "Open Source"
+      "name": "arbeitauslagern, Germany",
+      "reference": "Professional work big thanks for your support. The result is even better than expected. He really knows what he is doing."
     }
   ]
 }
