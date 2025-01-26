@@ -11,12 +11,19 @@ jobs:
 
     - name: npm
       run: |
-        npm install -g resume-cli
-        npm install -g jsonresume-theme-macchiato
+        # npm install -g resume-cli
+        # npm install -g jsonresume-theme-macchiato
         
-        resume export resume.pdf --theme macchiato
-        resume export resume.html --theme macchiato
+        # resume export resume.pdf --theme macchiato
+        # resume export resume.html --theme macchiato
 
+        npm install hacksalot/hackmyresume#dev -g
+
+        npm install -g jsonresume-theme-macchiato
+
+        hackmyresume build resume.json TO out/resume.html -t node_modules/jsonresume-theme-macchiato
+
+        
     # - name: Update Resume Gist
     #   uses: exuanbo/actions-deploy-gist@v1
     #   with:
