@@ -4,8 +4,7 @@ on: push
 
 jobs:
   update-resume-gist:
-    runs-on: ubuntu-20.04
-    # ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
@@ -29,7 +28,7 @@ jobs:
 
         # wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
         # sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-        sudo apt-get -y install phantomjs
+        sudo apt-get -y install weasyprint
 
         hackmyresume build resume.json TO out/index.html out/resume.pdf -t node_modules/jsonresume-theme-macchiato
         # -t ${{ github.workspace }}/node_modules/jsonresume-theme-macchiato
